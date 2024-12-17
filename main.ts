@@ -7,6 +7,7 @@ function main() {
     const [n, m] = [GameProperty.UNIT_NUM, GameProperty.TARGET_NUM];
     const entities = EntityManager.createEntities(n, m);
 
+
     menu(() => {
         // 준비
         System.HintSystem.hint(entities, GameProperty.READY);

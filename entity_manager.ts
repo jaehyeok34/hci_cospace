@@ -48,7 +48,7 @@ export default class EntityManager {
         });
 
         const effect = Entity.create();
-        effect.addComponent(new Component.EffectComponent(Scene.getItem("jHXHSThU")));
+        effect.addComponent(new Component.EffectComponent(Scene.getItem("effect")));
         entities.push(effect);
 
         
